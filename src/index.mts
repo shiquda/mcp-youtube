@@ -63,7 +63,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         "srt",
         url,
       ],
-      { cwd: tempDir }
+      { cwd: tempDir, detached: true }
     );
 
     let content = "";
