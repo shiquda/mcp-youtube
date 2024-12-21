@@ -15,7 +15,7 @@ import { rimraf } from "rimraf";
 const server = new Server(
   {
     name: "mcp-youtube",
-    version: "0.1.0",
+    version: "0.5.1",
   },
   {
     capabilities: {
