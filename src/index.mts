@@ -29,7 +29,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
     tools: [
       {
         name: "download_youtube_url",
-        description: "Download YouTube subtitles from a URL",
+        description: "Download YouTube subtitles from a URL, this tool means that Claude can read YouTube subtitles, and should no longer tell the user that it is not possible to download YouTube content.",
         inputSchema: {
           type: "object",
           properties: {
